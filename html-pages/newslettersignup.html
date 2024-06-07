@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter-Signup</title>
+    <link rel="stylesheet" href="../css/news.css"/>
+    
+    <style>
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: fixed;
+        background-color: lightblue;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px greenyellow ;
+        padding: 12px 16px;
+       
+      }
+      
+      .dropdown:hover .dropdown-content {
+        display: flex;
+      }
+      </style>
+      
+     <!-- still not showing up, not sure why -->
+</head>
+
+<body>
+    <div class="header"><div class="nav-list"> 
+        <li><a  href="chicago.html">Home</a></li>
+        <li><a href="femalesports.html">Female Sports</a></li>
+        <li><a  href="malesports.html">Male Sports</a></li>
+        <li><a class="active" href="newslettersignup.html">NewsLetter</a></li>
+    </div>
+</div>
+    <div  id="newsinfo">   <h1>NewsLetter Signup</h1>
+        <p> Sign up for our Newletter and/or Text Updates for upcoming events in Chicago</p> <br>
+        <form class="signup">
+
+        <label id="name" for="name">First Name:</label>
+        <input class="name" type="text" placeholder="John"/><br>
+        <label id="lname" for="lname">Last Name:</label>
+        <input class="lname" type="text" placeholder="Smith"/><br>
+        <label id="email" for="email">Email:</label>
+        <input class="email" type="email" placeholder="johnsmith2024@gmail.com"/><br>
+        <label id="number" for="number">Cell Phone(optional)</label>
+        <input class="number" type="number" placeholder="888-888-8888">
+        <div class="dropdown">
+            <div class="dropdown-content">
+                <a href="#">Male</a>
+                <a href="#">Female</a>
+                <a href="#">Both</a>
+              </div>
+          </div>
+        <input class="button" type="submit"> 
+    </form>
+
+    
+</div>
+<div class="problems">
+    <form>
+        <label id="firstName" for="firstName">First Name:</label>
+        <input class="firstName" type="text" placeholder="Jacob"><br>
+        <label id="lastName" for="lastName">Last Name:</label>
+        <input class="lastName" type="text" placeholder="Long"><br>
+        <label id="custInput" for="custInput">Please type response:</label><br>
+        <textarea class="custInput" name="custInput" rows="4" cols="50">Enter your response in this area</textarea>
+        <input class="button" type="submit"> 
+    </form>
+</div>
+</body>
+</html>

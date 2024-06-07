@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+.navlist {
+  width: 100%;
+  background-color: lightblue;
+}
+
+/* nav links */
+.navlist a {
+  display: flex;
+  color: blue;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  position: fixed;
+  /* width: 33.33%; */
+  text-align: center;
+}
+
+.navlist a li {
+
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.signup {
+  display: flex;
+  border: 2px solid lightblue;
+  width: 100vw;
+  height: 50vh;
+  text-align: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  flex-flow: column;
+}
+/* maybe i need another container to have around the forms to size the smaller  */
+.button {
+  width: 100%;
+  background-color: lightblue;
+}
+h1 { color:red;
+}
+
